@@ -11,7 +11,8 @@ export const AppProvider = ({ children }) => {
     audio:true,
     video:true
   })
-  const apiUrl = "http://localhost:8000";
+  // const apiUrl = "http://localhost:8000";
+  const apiUrl = "https://code-meet-i44j.onrender.com";
   useEffect(() => {
     const token = localStorage.getItem("token");
     if(token){
